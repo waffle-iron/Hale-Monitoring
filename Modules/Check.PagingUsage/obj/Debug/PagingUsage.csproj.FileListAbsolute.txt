@@ -1,0 +1,10 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\bin\Debug\manifest.yaml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\bin\Debug\HaleModule-Core-Paging-Usage.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\bin\Debug\HaleModule-Core-Paging-Usage.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\bin\Debug\Hale-Lib.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\bin\Debug\NLog.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\bin\Debug\Hale-Lib.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\bin\Debug\NLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\obj\Debug\PagingUsage.csprojResolveAssemblyReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\obj\Debug\HaleModule-Core-Paging-Usage.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.PagingUsage\obj\Debug\HaleModule-Core-Paging-Usage.pdb

@@ -1,0 +1,9 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\bin\Debug\HaleModule-Core-CPU.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\bin\Debug\HaleModule-Core-CPU.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\bin\Debug\Hale-Lib.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\bin\Debug\NLog.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\bin\Debug\Hale-Lib.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\bin\Debug\NLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\obj\Debug\CpuUsage.csprojResolveAssemblyReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\obj\Debug\HaleModule-Core-CPU.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.CpuUsage\obj\Debug\HaleModule-Core-CPU.pdb

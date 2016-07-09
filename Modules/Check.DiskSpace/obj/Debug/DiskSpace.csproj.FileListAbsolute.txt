@@ -1,0 +1,12 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\manifest.yaml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\HaleModule-Core-Storage.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\HaleModule-Core-Storage.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\HaleModule-Core-Storage.dll.CodeAnalysisLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\HaleModule-Core-Storage.dll.lastcodeanalysissucceeded
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\Hale-Lib.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\NLog.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\Hale-Lib.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\bin\Debug\NLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\obj\Debug\DiskSpace.csprojResolveAssemblyReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\obj\Debug\HaleModule-Core-Storage.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DiskSpace\obj\Debug\HaleModule-Core-Storage.pdb

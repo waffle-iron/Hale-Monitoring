@@ -11,7 +11,7 @@ namespace Hale_Core.Entities.Checks
         /// <summary>
         /// Corresponds to the table column Checks.Check.Id
         /// </summary>
-        public int Id { get; set; }
+        public new int Id { get; set; }
 
         /// <summary>
         /// Corresponds to the table column Checks.Check.Identifier

@@ -1,0 +1,10 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\bin\Debug\manifest.yaml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\bin\Debug\HaleModule-Core-DNS-Resolvability.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\bin\Debug\HaleModule-Core-DNS-Resolvability.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\bin\Debug\Hale-Lib.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\bin\Debug\NLog.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\bin\Debug\Hale-Lib.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\bin\Debug\NLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\obj\Debug\DnsResolvability.csprojResolveAssemblyReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\obj\Debug\HaleModule-Core-DNS-Resolvability.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.DnsResolvability\obj\Debug\HaleModule-Core-DNS-Resolvability.pdb

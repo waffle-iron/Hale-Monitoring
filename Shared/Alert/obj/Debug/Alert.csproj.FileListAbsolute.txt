@@ -1,0 +1,6 @@
+C:\Users\simon\Hale-Monitoring\Shared\Alert\bin\Debug\Hale-Alert.dll
+C:\Users\simon\Hale-Monitoring\Shared\Alert\bin\Debug\Hale-Alert.pdb
+C:\Users\simon\Hale-Monitoring\Shared\Alert\bin\Debug\NLog.dll
+C:\Users\simon\Hale-Monitoring\Shared\Alert\bin\Debug\NLog.xml
+C:\Users\simon\Hale-Monitoring\Shared\Alert\obj\Debug\Hale-Alert.dll
+C:\Users\simon\Hale-Monitoring\Shared\Alert\obj\Debug\Hale-Alert.pdb

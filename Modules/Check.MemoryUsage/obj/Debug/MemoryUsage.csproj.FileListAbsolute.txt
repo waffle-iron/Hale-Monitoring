@@ -1,0 +1,10 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\bin\Debug\manifest.yaml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\bin\Debug\HaleModule-Core-Memory.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\bin\Debug\HaleModule-Core-Memory.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\bin\Debug\Hale-Lib.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\bin\Debug\NLog.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\bin\Debug\Hale-Lib.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\bin\Debug\NLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\obj\Debug\MemoryUsage.csprojResolveAssemblyReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\obj\Debug\HaleModule-Core-Memory.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.MemoryUsage\obj\Debug\HaleModule-Core-Memory.pdb

@@ -1,0 +1,1 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Shared\Alert.Test\obj\Debug\Alert.Test.csprojResolveAssemblyReference.cache

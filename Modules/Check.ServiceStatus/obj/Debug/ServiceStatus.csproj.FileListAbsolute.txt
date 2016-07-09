@@ -1,0 +1,11 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\bin\Debug\HaleModule-Core-Services.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\bin\Debug\HaleModule-Core-Services.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\bin\Debug\Hale-Lib.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\bin\Debug\NLog.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\bin\Debug\Newtonsoft.Json.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\bin\Debug\Hale-Lib.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\bin\Debug\NLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\bin\Debug\Newtonsoft.Json.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\obj\Debug\ServiceStatus.csprojResolveAssemblyReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\obj\Debug\HaleModule-Core-Services.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.ServiceStatus\obj\Debug\HaleModule-Core-Services.pdb

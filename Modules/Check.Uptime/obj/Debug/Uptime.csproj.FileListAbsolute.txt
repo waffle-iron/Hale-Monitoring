@@ -1,0 +1,12 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\manifest.yaml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\HaleModule-Core-Power.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\HaleModule-Core-Power.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\HaleModule-Core-Power.dll.CodeAnalysisLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\HaleModule-Core-Power.dll.lastcodeanalysissucceeded
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\Hale-Lib.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\NLog.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\Hale-Lib.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\bin\Debug\NLog.xml
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\obj\Debug\Uptime.csprojResolveAssemblyReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\obj\Debug\HaleModule-Core-Power.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Uptime\obj\Debug\HaleModule-Core-Power.pdb

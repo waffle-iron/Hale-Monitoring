@@ -1,0 +1,4 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Template\bin\Debug\Hale-Check-Template.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Template\bin\Debug\Hale-Check-Template.pdb
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Template\obj\Debug\Hale-Check-Template.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Modules\Check.Template\obj\Debug\Hale-Check-Template.pdb

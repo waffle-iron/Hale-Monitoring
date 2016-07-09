@@ -1,0 +1,3 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Tools\Hale-DBTools\obj\Debug\Hale_DBTools.FormEditData.resources
+C:\Users\simon\Source\Repos\Hale-Monitoring\Tools\Hale-DBTools\obj\Debug\Hale_DBTools.Properties.Resources.resources
+C:\Users\simon\Source\Repos\Hale-Monitoring\Tools\Hale-DBTools\obj\Debug\DBTools.csproj.GenerateResource.Cache
