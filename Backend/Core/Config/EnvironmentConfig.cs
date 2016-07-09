@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hale_Core.Config
+namespace Hale.Core.Config
 {
     class EnvironmentConfig
     {

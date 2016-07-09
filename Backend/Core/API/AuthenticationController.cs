@@ -4,17 +4,17 @@ using System.Net.Security;
 using System.Security.Claims;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Hale_Core.Entities;
-using Hale_Core.Entities.Security;
-using Hale_Core.Handlers;
+using Hale.Core.Entities;
+using Hale.Core.Entities.Security;
+using Hale.Core.Handlers;
 using Microsoft.Owin.Security;
 using Newtonsoft.Json;
 using NLog;
 using Microsoft.Owin;
-using Hale_Core.Entities.Shared;
-using Hale_Core.Contexts;
+using Hale.Core.Entities.Shared;
+using Hale.Core.Contexts;
 
-namespace Hale_Core.API
+namespace Hale.Core.API
 {
     /// <summary>
     /// API for handling logins, logouts and status checks.

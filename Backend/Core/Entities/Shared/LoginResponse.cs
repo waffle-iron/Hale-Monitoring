@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hale_Core.Entities.Shared
+namespace Hale.Core.Entities.Shared
 {
     /// <summary>
     /// Message for returning login responses to the GUI.

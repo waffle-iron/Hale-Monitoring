@@ -2,11 +2,11 @@
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using Hale_Core.Entities.Security;
+using Hale.Core.Entities.Security;
 using NLog;
-using Hale_Core.Contexts;
+using Hale.Core.Contexts;
 
-namespace Hale_Core.Handlers
+namespace Hale.Core.Handlers
 {
 
     internal class SecurityHandler

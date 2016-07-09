@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using Newtonsoft.Json;
 
-namespace Hale_Core.Utils
+namespace Hale.Core.Utils
 {
     /// <summary>
     /// Simple way to return a general error string (eg. file not found), title,

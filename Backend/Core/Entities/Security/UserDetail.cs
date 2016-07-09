@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Hale_Core.Entities.Security
+namespace Hale.Core.Entities.Security
 {
     /// <summary>
     /// Corresponds to the database table Security.UserDetails

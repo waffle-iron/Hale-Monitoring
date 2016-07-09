@@ -1,7 +1,7 @@
-﻿using Hale_Core.Entities.Modules;
+﻿using Hale.Core.Entities.Modules;
 using System;
 
-namespace Hale_Core.Entities.Checks
+namespace Hale.Core.Entities.Checks
 {
     /// <summary>
     /// Corresponds to the database table Checks.Check

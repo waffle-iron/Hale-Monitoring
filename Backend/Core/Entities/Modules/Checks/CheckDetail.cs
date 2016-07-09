@@ -1,11 +1,11 @@
-﻿using Hale_Core.Entities.Modules;
+﻿using Hale.Core.Entities.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hale_Core.Entities.Checks
+namespace Hale.Core.Entities.Checks
 {
     /// <summary>
     /// Corresponds to the database table Checks.CheckDetails

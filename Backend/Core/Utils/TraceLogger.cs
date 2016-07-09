@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hale_Core.Utils
+namespace Hale.Core.Utils
 {
     /// <summary>
     /// 

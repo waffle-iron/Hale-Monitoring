@@ -1,24 +1,19 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Threading;
-using Agent.Config;
-using HaleLib.JsonRpc;
+using Hale.Agent.Config;
+using Hale.Lib.JsonRpc;
 using NLog;
 using Piksel.Nemesis;
 
-namespace Agent.Communication
+namespace Hale.Agent.Communication
 {
     internal class NemesisHeartbeatWorker
     {
         private NemesisConfig config;
         private BackgroundWorker worker;
         private NemesisNode node;
-
-        struct NemesisConfigAndServer
-        {
-            NemesisConfig config;
-            NemesisNode node;
-        }
+        
 
         public NemesisHeartbeatWorker(NemesisConfig config, NemesisNode node)
         {

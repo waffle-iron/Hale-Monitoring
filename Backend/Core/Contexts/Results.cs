@@ -1,11 +1,11 @@
-﻿using Hale_Core.Entities.Checks;
-using Hale_Core.Handlers;
+﻿using Hale.Core.Entities.Checks;
+using Hale.Core.Handlers;
 using System.Collections.Generic;
 using System.Linq;
 using Dapper;
-using Hale_Core.Entities.Nodes;
+using Hale.Core.Entities.Nodes;
 
-namespace Hale_Core.Contexts
+namespace Hale.Core.Contexts
 {
     internal class Results_ : SqlHandler
     {

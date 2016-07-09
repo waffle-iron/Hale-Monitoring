@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace Hale_Core.Config
+namespace Hale.Core.Config
 {
     /// <summary>
     /// 

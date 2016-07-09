@@ -4,13 +4,13 @@ using System.Configuration;
 using System.IO;
 using System.Net;
 using System.ServiceProcess;
-using Hale_Core.Config;
-using Hale_Core.Contexts;
-using Hale_Core.Handlers;
+using Hale.Core.Config;
+using Hale.Core.Contexts;
+using Hale.Core.Handlers;
 using NLog;
-using HaleLib.Utilities;
+using Hale.Lib.Utilities;
 
-namespace Hale_Core
+namespace Hale.Core
 {
     /// <summary>
     /// The main entry point for starting the Hale-Core service.

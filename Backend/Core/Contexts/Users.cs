@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dapper;
-using Hale_Core.Entities.Security;
+using Hale.Core.Entities.Security;
 using System.Data.SqlClient;
-using Hale_Core.Handlers;
+using Hale.Core.Handlers;
 
-namespace Hale_Core.Contexts
+namespace Hale.Core.Contexts
 {
     internal class Users : SqlHandler
     {

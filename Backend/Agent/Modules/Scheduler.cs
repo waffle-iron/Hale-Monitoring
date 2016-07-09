@@ -1,20 +1,20 @@
-﻿using Agent.Config;
+﻿using Hale.Agent.Config;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Timers = System.Timers;
-using Agent.Communication;
-using HaleLib.Modules;
-using HaleLib.ModuleLoader;
-using HaleLib.Modules.Checks;
-using Agent.Modules;
-using HaleLib.Modules.Info;
-using HaleLib.Modules.Actions;
-using HaleLib.Utilities;
-using HaleLib;
+using Hale.Agent.Communication;
+using Hale.Lib.Modules;
+using Hale.Lib.ModuleLoader;
+using Hale.Lib.Modules.Checks;
+using Hale.Agent.Modules;
+using Hale.Lib.Modules.Info;
+using Hale.Lib.Modules.Actions;
+using Hale.Lib.Utilities;
+using Hale.Lib;
 
-namespace Agent
+namespace Hale.Agent
 {
     class AgentScheduler: Scheduler
     {
@@ -330,7 +330,6 @@ namespace Agent
     internal class ModuleTask: TaskBase
     {
         public string Module;
-        public Version ModuleVersion;
         public string Function;
         public string[] Targets { get { return Settings.Targets.ToArray();  } }
         public ModuleFunctionType FunctionType;

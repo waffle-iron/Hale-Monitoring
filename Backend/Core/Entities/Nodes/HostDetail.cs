@@ -1,4 +1,4 @@
-﻿namespace Hale_Core.Entities.Nodes
+﻿namespace Hale.Core.Entities.Nodes
 {
     /// <summary>
     /// Corresponds to the database table Nodes.HostDetails

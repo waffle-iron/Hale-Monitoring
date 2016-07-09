@@ -4,14 +4,14 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Hale_Core.Entities;
-using Hale_Core.Entities.Security;
-using Hale_Core.Handlers;
-using Hale_Core.Utils;
+using Hale.Core.Entities;
+using Hale.Core.Entities.Security;
+using Hale.Core.Handlers;
+using Hale.Core.Utils;
 using NLog;
-using Hale_Core.Contexts;
+using Hale.Core.Contexts;
 
-namespace Hale_Core.API
+namespace Hale.Core.API
 {
 
     /// <summary>

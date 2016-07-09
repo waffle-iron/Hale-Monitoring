@@ -1,6 +1,6 @@
-﻿using Hale_Core.Contexts;
-using HaleLib.ModuleLoader;
-using HaleLib.Modules;
+﻿using Hale.Core.Contexts;
+using Hale.Lib.ModuleLoader;
+using Hale.Lib.Modules;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace Hale_Core.Handlers
+namespace Hale.Core.Handlers
 {
     class ModuleHandler
     {

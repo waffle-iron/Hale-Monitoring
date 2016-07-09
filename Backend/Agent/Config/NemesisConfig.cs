@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace Agent.Config
+namespace Hale.Agent.Config
 {
     class NemesisConfig
     {

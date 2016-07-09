@@ -1,4 +1,4 @@
-﻿namespace Agent
+﻿namespace Hale.Agent
 {
     partial class HaleAgentService
     {

@@ -6,10 +6,10 @@ using Microsoft.Owin.Security;
 using System;
 using NLog;
 using Swashbuckle.Application;
-using HaleLib.Utilities;
-using Hale_Core.Config;
+using Hale.Lib.Utilities;
+using Hale.Core.Config;
 
-namespace Hale_Core.Handlers
+namespace Hale.Core.Handlers
 {
     internal class ApiHandler
     {

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dapper;
-using Hale_Core.Entities.Shared;
-using Hale_Core.Handlers;
+using Hale.Core.Entities.Shared;
+using Hale.Core.Handlers;
 
-namespace Hale_Core.Contexts
+namespace Hale.Core.Contexts
 {
     internal class Metadatum : SqlHandler
     {

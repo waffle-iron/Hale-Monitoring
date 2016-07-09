@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Agent.Config;
+using Hale.Agent.Config;
 using Piksel.Nemesis;
 using Piksel.Nemesis.Security;
 using NLog;
 using System.ComponentModel;
 using System.Threading;
 using Newtonsoft.Json.Linq;
-using Agent.Core;
-using HaleLib.JsonRpc;
-using HaleLib.Modules.Checks;
-using HaleLib.Modules;
-using HaleLib.Utilities;
+using Hale.Agent.Core;
+using Hale.Lib.JsonRpc;
+using Hale.Lib.Modules.Checks;
+using Hale.Lib.Modules;
+using Hale.Lib.Utilities;
 
-namespace Agent.Communication
+namespace Hale.Agent.Communication
 {
     class NemesisController
     {

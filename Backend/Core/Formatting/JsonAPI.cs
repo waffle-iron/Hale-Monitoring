@@ -9,7 +9,7 @@ using System.Web.Http;
 using Links = System.Collections.Generic.Dictionary<string, string>;
 using Meta = System.Collections.Generic.Dictionary<string, object>;
 
-namespace Hale_Core.Formatting.JsonAPI
+namespace Hale.Core.Formatting.JsonAPI
 {
 
     // Todo: Add list initializers inside constructors for all classes -NM

@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Linq;
 using System.Reflection;
 
-namespace Hale_Core.Config
+namespace Hale.Core.Config
 {
     /// <summary>
     /// 

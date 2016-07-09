@@ -1,4 +1,4 @@
-﻿using HaleLib.Modules.Checks;
+﻿using Hale.Lib.Modules.Checks;
 using NLog;
 using NLog.Config;
 using System;
@@ -10,7 +10,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Agent
+namespace Hale.Agent
 {
     class Program: MarshalByRefObject
     {

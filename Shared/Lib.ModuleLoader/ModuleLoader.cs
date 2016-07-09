@@ -1,8 +1,8 @@
-﻿using HaleLib.Modules;
-using HaleLib.Modules.Actions;
-using HaleLib.Modules.Alerts;
-using HaleLib.Modules.Checks;
-using HaleLib.Modules.Info;
+﻿using Hale.Lib.Modules;
+using Hale.Lib.Modules.Actions;
+using Hale.Lib.Modules.Alerts;
+using Hale.Lib.Modules.Checks;
+using Hale.Lib.Modules.Info;
 using NLog;
 using NLog.Config;
 using System;
@@ -16,7 +16,7 @@ using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HaleLib.ModuleLoader
+namespace Hale.Lib.ModuleLoader
 {
     public class ModuleLoader : MarshalByRefObject
     {

@@ -1,11 +1,11 @@
-﻿using HaleLib.Modules;
+﻿using Hale.Lib.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HaleLib.ModuleLoader
+namespace Hale.Lib.ModuleLoader
 {
     [Serializable]
     public class ModuleRuntimeInfo

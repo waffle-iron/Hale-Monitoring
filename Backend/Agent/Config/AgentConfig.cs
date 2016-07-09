@@ -7,12 +7,12 @@ using System.IO;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 using System.Globalization;
-using HaleLib.Modules.Checks;
-using HaleLib.Modules.Info;
-using HaleLib.Modules.Actions;
+using Hale.Lib.Modules.Checks;
+using Hale.Lib.Modules.Info;
+using Hale.Lib.Modules.Actions;
 using System.Collections;
 
-namespace Agent.Config
+namespace Hale.Agent.Config
 {
     class AgentConfig
     {

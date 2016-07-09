@@ -65,7 +65,7 @@ C:\Users\simon\Hale-Monitoring\Backend\Agent\bin\Debug\YamlDotNet.Dynamic.pdb
 C:\Users\simon\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.csprojResolveAssemblyReference.cache
 C:\Users\simon\Hale-Monitoring\Backend\Agent\obj\Debug\Interop.Shell32.dll
 C:\Users\simon\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.csproj.ResolveComReference.cache
-C:\Users\simon\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.HaleAgentService.resources
 C:\Users\simon\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.csproj.GenerateResource.Cache
 C:\Users\simon\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.exe
 C:\Users\simon\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.pdb
+C:\Users\simon\Hale-Monitoring\Backend\Agent\obj\Debug\Hale.Agent.HaleAgentService.resources

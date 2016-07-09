@@ -1,5 +1,5 @@
-﻿using HaleLib.Modules;
-using HaleLib.Modules.Alerts;
+﻿using Hale.Lib.Modules;
+using Hale.Lib.Modules.Alerts;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;

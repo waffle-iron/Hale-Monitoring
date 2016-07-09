@@ -1,12 +1,6 @@
-﻿using Hale_Core.Contexts;
-using HaleLib.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Hale.Lib.Utilities;
 
-namespace Hale_Core.Handlers
+namespace Hale.Core.Handlers
 {
     partial class CoreScheduler
     {

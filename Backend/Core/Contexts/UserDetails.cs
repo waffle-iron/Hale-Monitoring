@@ -1,11 +1,11 @@
-﻿using Hale_Core.Entities.Security;
+﻿using Hale.Core.Entities.Security;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using Dapper;
 using System.Linq;
-using Hale_Core.Handlers;
+using Hale.Core.Handlers;
 
-namespace Hale_Core.Contexts
+namespace Hale.Core.Contexts
 {
     internal class UserDetails : SqlHandler
     {

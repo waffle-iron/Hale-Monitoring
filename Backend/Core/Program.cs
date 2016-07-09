@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ServiceProcess;
 
-namespace Hale_Core
+namespace Hale.Core
 {
     static class Program
     {

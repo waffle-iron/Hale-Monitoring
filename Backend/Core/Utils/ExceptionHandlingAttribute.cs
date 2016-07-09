@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Web.Http.Filters;
 
-namespace Hale_Core.Utils
+namespace Hale.Core.Utils
 {
     class ExceptionHandlingAttribute: ExceptionFilterAttribute
     {

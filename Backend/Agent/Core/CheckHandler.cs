@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.IO;
-using System.Threading.Tasks;
 using System.Reflection;
-using HaleLib.Modules.Checks;
+using Hale.Lib.Modules.Checks;
 
-namespace Agent.Core
+namespace Hale.Agent.Core
 {
     internal class CheckHandler  
     {

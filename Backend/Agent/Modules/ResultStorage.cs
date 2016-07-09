@@ -1,10 +1,10 @@
-﻿using Agent.Config;
-using Agent.Core;
-using HaleLib.Modules;
-using HaleLib.Modules.Actions;
-using HaleLib.Modules.Checks;
-using HaleLib.Modules.Info;
-using HaleLib.Utilities;
+﻿using Hale.Agent.Config;
+using Hale.Agent.Core;
+using Hale.Lib.Modules;
+using Hale.Lib.Modules.Actions;
+using Hale.Lib.Modules.Checks;
+using Hale.Lib.Modules.Info;
+using Hale.Lib.Utilities;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using NLog;
@@ -16,13 +16,14 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Agent.Modules
+namespace Hale.Agent.Modules
 {
     // Todo: Rename class @todo -NM
     class ResultStorage: IResultStorage, IDisposable
     {
         string _resultsPath;
         string _queuePath;
+
         ILogger _log = LogManager.GetLogger("ResultStorage");
 
         public ResultStorage()

@@ -13,7 +13,7 @@ using System.Collections;
 using Humanizer;
 using System.Web.Http;
 
-namespace Hale_Core.Formatting
+namespace Hale.Core.Formatting
 {
     /// <summary>
     /// TODO: Add a usage description.

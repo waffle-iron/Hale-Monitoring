@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json.Serialization;
 using Humanizer;
 
-namespace Hale_Core.Formatting
+namespace Hale.Core.Formatting
 {
     /// <summary>
     /// TODO: Add a usage description.

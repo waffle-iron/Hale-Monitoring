@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlTypes;
 
-namespace Hale_Core.Entities.Checks
+namespace Hale.Core.Entities.Checks
 {
     /// <summary>
     /// Corresponds to the database table Checks.Results

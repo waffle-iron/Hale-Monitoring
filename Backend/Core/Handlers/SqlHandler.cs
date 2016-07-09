@@ -1,4 +1,4 @@
-﻿using Hale_Core.Config;
+﻿using Hale.Core.Config;
 using NLog;
 using System;
 using System.Configuration;
@@ -7,7 +7,7 @@ using System.Security;
 using System.Threading;
 
 
-namespace Hale_Core.Handlers
+namespace Hale.Core.Handlers
 {
     abstract internal class SqlHandler
     {

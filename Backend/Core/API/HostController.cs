@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Hale_Core.Contexts;
-using Hale_Core.Entities.Nodes;
+using Hale.Core.Contexts;
+using Hale.Core.Entities.Nodes;
 using NLog;
 
-namespace Hale_Core.API
+namespace Hale.Core.API
 {
     /// <summary>
     /// API for handling Host entries and related data.

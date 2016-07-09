@@ -1,18 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading;
 using WindowsInstaller;
-using Hale_Core.Entities;
 using NLog;
 using Piksel.Nemesis.Security;
-using Hale_Core.Config;
-using Hale_Core.Entities.Nodes;
-using HaleLib.Utilities;
+using Hale.Core.Config;
+using Hale.Core.Entities.Nodes;
+using Hale.Lib.Utilities;
 using System.Configuration;
 
-namespace Hale_Core.Handlers
+namespace Hale.Core.Handlers
 {
     class AgentDistHandler
     {

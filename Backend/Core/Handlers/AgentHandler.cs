@@ -1,26 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using Hale_Core.Config;
-using Hale_Core.Contexts;
-using Hale_Core.Entities;
-using Hale_Core.Entities.Checks;
-using Hale_Core.Entities.Nodes;
+﻿using Hale.Lib.JsonRpc;
+using Hale.Lib.Modules;
+using Hale.Lib.Modules.Checks;
+using Hale.Lib.Utilities;
+using Hale.Core.Config;
+using Hale.Core.Contexts;
+using Hale.Core.Entities.Modules;
+using Hale.Core.Entities.Nodes;
+using Hale.Core.Utils;
+using Newtonsoft.Json.Linq;
 using NLog;
 using Piksel.Nemesis;
 using Piksel.Nemesis.Security;
-using HaleLib.JsonRpc;
-using HaleLib.Modules;
-using Hale_Core.Entities.Modules;
-using HaleLib.Modules.Checks;
-using Newtonsoft.Json.Linq;
-using HaleLib.Generalization;
-using HaleLib.Utilities;
+using System;
+using System.Collections.Generic;
 using System.Configuration;
-using Hale_Core.Utils;
+using System.IO;
+using System.Net;
 
-namespace Hale_Core.Handlers
+namespace Hale.Core.Handlers
 {
     class AgentHandler
     {

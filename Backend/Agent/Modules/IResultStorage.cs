@@ -1,14 +1,14 @@
-﻿using HaleLib.Modules;
-using HaleLib.Modules.Actions;
-using HaleLib.Modules.Checks;
-using HaleLib.Modules.Info;
+﻿using Hale.Lib.Modules;
+using Hale.Lib.Modules.Actions;
+using Hale.Lib.Modules.Checks;
+using Hale.Lib.Modules.Info;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Agent.Modules
+namespace Hale.Agent.Modules
 {
     internal interface IResultStorage
     {

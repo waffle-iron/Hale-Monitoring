@@ -1,13 +1,13 @@
 ﻿using System;
 using System.ServiceProcess;
 using System.IO;
-using Agent.Communication;
+using Hale.Agent.Communication;
 using NLog;
-using Agent.Config;
-using Agent.Modules;
-using HaleLib.Utilities;
+using Hale.Agent.Config;
+using Hale.Agent.Modules;
+using Hale.Lib.Utilities;
 
-namespace Agent
+namespace Hale.Agent
 {
     public partial class HaleAgentService : ServiceBase
     {

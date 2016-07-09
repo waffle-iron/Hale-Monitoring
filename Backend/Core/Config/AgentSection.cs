@@ -1,7 +1,7 @@
 ﻿using System.Configuration;
 using System.Net;
 
-namespace Hale_Core.Config
+namespace Hale.Core.Config
 {
 
     /// <summary>

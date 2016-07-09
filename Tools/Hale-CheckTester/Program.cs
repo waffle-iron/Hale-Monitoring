@@ -6,12 +6,12 @@ using NLog;
 using System.Reflection;
 using CommandLine;
 using CommandLine.Text;
-using HaleLib.Modules.Checks;
-using HaleLib.ModuleLoader;
-using HaleLib.Modules.Info;
-using HaleLib.Modules.Actions;
-using HaleLib.Modules.Alerts;
-using HaleLib.Modules;
+using Hale.Lib.Modules.Checks;
+using Hale.Lib.ModuleLoader;
+using Hale.Lib.Modules.Info;
+using Hale.Lib.Modules.Actions;
+using Hale.Lib.Modules.Alerts;
+using Hale.Lib.Modules;
 using YamlDotNet.Serialization;
 
 namespace Hale_CheckTester

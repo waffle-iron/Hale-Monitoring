@@ -1,11 +1,11 @@
-﻿using HaleLib.Modules;
+﻿using Hale.Lib.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hale_Core.Entities.Modules
+namespace Hale.Core.Entities.Modules
 {
     /// <summary>
     /// 

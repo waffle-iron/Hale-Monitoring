@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Hale_Core.Entities.Nodes
+namespace Hale.Core.Entities.Nodes
 {
 
     /// <summary>

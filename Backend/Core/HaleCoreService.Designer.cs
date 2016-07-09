@@ -1,4 +1,4 @@
-﻿namespace Hale_Core
+﻿namespace Hale.Core
 {
     partial class HaleCoreService
     {

@@ -4,170 +4,170 @@
         <name>Hale-Core</name>
     </assembly>
     <members>
-        <member name="T:Hale_Core.Config.ConfigurationExtensions">
+        <member name="T:Hale.Core.Config.ConfigurationExtensions">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Hale_Core.Config.ConfigurationExtensions.Agent(System.Configuration.Configuration)">
-            <summary>
-            
-            </summary>
-            <param name="config"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Hale_Core.Config.ConfigurationExtensions.Api(System.Configuration.Configuration)">
+        <member name="M:Hale.Core.Config.ConfigurationExtensions.Agent(System.Configuration.Configuration)">
             <summary>
             
             </summary>
             <param name="config"></param>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.Config.ConfigurationExtensions.Database(System.Configuration.Configuration)">
+        <member name="M:Hale.Core.Config.ConfigurationExtensions.Api(System.Configuration.Configuration)">
             <summary>
             
             </summary>
             <param name="config"></param>
             <returns></returns>
         </member>
-        <member name="T:Hale_Core.Config.AgentSection">
+        <member name="M:Hale.Core.Config.ConfigurationExtensions.Database(System.Configuration.Configuration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Hale.Core.Config.AgentSection">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.AgentSection.SendPort">
+        <member name="P:Hale.Core.Config.AgentSection.SendPort">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.AgentSection.ReceivePort">
+        <member name="P:Hale.Core.Config.AgentSection.ReceivePort">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.AgentSection.Hostname">
+        <member name="P:Hale.Core.Config.AgentSection.Hostname">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.AgentSection.Ip">
+        <member name="P:Hale.Core.Config.AgentSection.Ip">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.AgentSection._rawIp">
+        <member name="P:Hale.Core.Config.AgentSection._rawIp">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Hale_Core.Config.AgentSection.ValidateSection(System.Configuration.Configuration)">
+        <member name="M:Hale.Core.Config.AgentSection.ValidateSection(System.Configuration.Configuration)">
             <summary>
             
             </summary>
             <param name="_config"></param>
         </member>
-        <member name="T:Hale_Core.Config.ApiSection">
+        <member name="T:Hale.Core.Config.ApiSection">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.ApiSection.Host">
+        <member name="P:Hale.Core.Config.ApiSection.Host">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.ApiSection.Port">
+        <member name="P:Hale.Core.Config.ApiSection.Port">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.ApiSection.Scheme">
+        <member name="P:Hale.Core.Config.ApiSection.Scheme">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Hale_Core.Config.ApiSection.ValidateSection(System.Configuration.Configuration)">
+        <member name="M:Hale.Core.Config.ApiSection.ValidateSection(System.Configuration.Configuration)">
             <summary>
             
             </summary>
             <param name="_config"></param>
         </member>
-        <member name="T:Hale_Core.Config.AppConfig">
+        <member name="T:Hale.Core.Config.AppConfig">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Hale_Core.Config.AppConfig.Change(System.String)">
+        <member name="M:Hale.Core.Config.AppConfig.Change(System.String)">
             <summary>
             Changes the app config path to param path.
             </summary>
             <param name="path">The new AppConfig Path.</param>
             <returns>The new path.</returns>
         </member>
-        <member name="M:Hale_Core.Config.AppConfig.Dispose">
+        <member name="M:Hale.Core.Config.AppConfig.Dispose">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Config.DatabaseSection">
+        <member name="T:Hale.Core.Config.DatabaseSection">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.DatabaseSection.Type">
+        <member name="P:Hale.Core.Config.DatabaseSection.Type">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.DatabaseSection.Host">
+        <member name="P:Hale.Core.Config.DatabaseSection.Host">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.DatabaseSection.Port">
+        <member name="P:Hale.Core.Config.DatabaseSection.Port">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.DatabaseSection.Database">
+        <member name="P:Hale.Core.Config.DatabaseSection.Database">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.DatabaseSection.User">
+        <member name="P:Hale.Core.Config.DatabaseSection.User">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.DatabaseSection.Password">
+        <member name="P:Hale.Core.Config.DatabaseSection.Password">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Config.DatabaseSection.UseIntegratedSecurity">
+        <member name="P:Hale.Core.Config.DatabaseSection.UseIntegratedSecurity">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Hale_Core.Config.DatabaseSection.ValidateSection(System.Configuration.Configuration)">
+        <member name="M:Hale.Core.Config.DatabaseSection.ValidateSection(System.Configuration.Configuration)">
             <summary>
             
             </summary>
             <param name="_config"></param>
         </member>
-        <member name="T:Hale_Core.API.MetadataController">
+        <member name="T:Hale.Core.API.MetadataController">
             <summary>
             Handles metadata templates for core entities.
             </summary>
         </member>
-        <member name="M:Hale_Core.API.MetadataController.List(System.String)">
+        <member name="M:Hale.Core.API.MetadataController.List(System.String)">
             <summary>
                 Returns the template used for the requested types metadata.
             </summary>
             <param name="type">A type of domain model, for example user, host etc.</param>
             <returns>A metadata template</returns>
         </member>
-        <member name="M:Hale_Core.API.MetadataController.Get(System.String,System.Int32)">
+        <member name="M:Hale.Core.API.MetadataController.Get(System.String,System.Int32)">
             <summary>
                 Returns a single metadata attribute.
             </summary>
@@ -175,7 +175,7 @@
             <param name="id">The ID of a single metadata attribute.</param>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.MetadataController.Put(System.String,Hale_Core.Entities.Shared.Metadata)">
+        <member name="M:Hale.Core.API.MetadataController.Put(System.String,Hale.Core.Entities.Shared.Metadata)">
             <summary>
             Creates metadata attribute for a specific entity type
             </summary>
@@ -183,7 +183,7 @@
             <param name="type"></param>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.MetadataController.Patch(System.String,System.Int32,Hale_Core.Entities.Shared.Metadata)">
+        <member name="M:Hale.Core.API.MetadataController.Patch(System.String,System.Int32,Hale.Core.Entities.Shared.Metadata)">
             <summary>
             Creates metadata attribute for a specific entity type
             </summary>
@@ -192,12 +192,12 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="T:Hale_Core.API.AuthenticationController">
+        <member name="T:Hale.Core.API.AuthenticationController">
             <summary>
             API for handling logins, logouts and status checks.
             </summary>
         </member>
-        <member name="M:Hale_Core.API.AuthenticationController.DevLogin(System.String,System.String,System.Boolean)">
+        <member name="M:Hale.Core.API.AuthenticationController.DevLogin(System.String,System.String,System.Boolean)">
             <summary>
             Creates claim and session if the authentication succeeds. (Debug only)
             </summary>
@@ -206,62 +206,62 @@
             <param name="persistent">Whether or not the session should persist on exit.</param>
             <returns>A custom LoginResponse that will be stored in the local storage for the Hale-GUI ember application.</returns>
         </member>
-        <member name="M:Hale_Core.API.AuthenticationController.Login(Hale_Core.Entities.Security.Authentication)">
+        <member name="M:Hale.Core.API.AuthenticationController.Login(Hale.Core.Entities.Security.Authentication)">
             <summary>
             Creates claim and session if the authentication succeeds. 
             </summary>
             <param name="auth">A JSON Serialized authentication attempt.</param>
             <returns>A custom LoginResponse that will be stored in the local storage for the Hale-GUI ember application.</returns>
         </member>
-        <member name="M:Hale_Core.API.AuthenticationController.Status">
+        <member name="M:Hale.Core.API.AuthenticationController.Status">
             <summary>
             Check whether the current session is authenticated or not.
             </summary>
             <returns>A statuscode and an error message, in case there happens to be one.</returns>
         </member>
-        <member name="M:Hale_Core.API.AuthenticationController.Logout">
+        <member name="M:Hale.Core.API.AuthenticationController.Logout">
             <summary>
             Deletes claim and session if there is any. 
             </summary>
             <returns>200</returns>
         </member>
-        <member name="M:Hale_Core.API.AuthenticationController.DevLogout">
+        <member name="M:Hale.Core.API.AuthenticationController.DevLogout">
             <summary>
             Deletes claim and session if there is any. (Debug only)
             </summary>
             <returns></returns>
         </member>
-        <member name="T:Hale_Core.API.HostController">
+        <member name="T:Hale.Core.API.HostController">
             <summary>
             API for handling Host entries and related data.
             </summary>
         </member>
-        <member name="M:Hale_Core.API.HostController.List">
+        <member name="M:Hale.Core.API.HostController.List">
             <summary>
             List host entities. (Auth)
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.HostController.Get(System.Int32)">
+        <member name="M:Hale.Core.API.HostController.Get(System.Int32)">
             <summary>
             Get information on a specific host. (Auth)
             </summary>
             <param name="id">Host ID of the host in question.</param>
             <returns></returns>
         </member>
-        <member name="T:Hale_Core.API.UserController">
+        <member name="T:Hale.Core.API.UserController">
             <summary>
             API for passing user data.
             </summary>
         </member>
-        <member name="M:Hale_Core.API.UserController.Add(Hale_Core.Entities.Security.User)">
+        <member name="M:Hale.Core.API.UserController.Add(Hale.Core.Entities.Security.User)">
             <summary>
             Create a new user. (Auth)
             </summary>
             <param name="user">A user model instance.</param>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.UserController.Update(System.Int32,Hale_Core.Entities.Security.User)">
+        <member name="M:Hale.Core.API.UserController.Update(System.Int32,Hale.Core.Entities.Security.User)">
             <summary>
             Update user attributes except for password. (Auth)
             </summary>
@@ -269,7 +269,7 @@
             <param name="user">An instance of the user model containing the new values.</param>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.UserController.AddDetail(System.Int32,System.String,Hale_Core.Entities.Security.UserDetail)">
+        <member name="M:Hale.Core.API.UserController.AddDetail(System.Int32,System.String,Hale.Core.Entities.Security.UserDetail)">
             <summary>
             Add a user detail to the open schema table. (Auth)
             </summary>
@@ -278,20 +278,20 @@
             <param name="detail">The full userdetail object.</param>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.UserController.List">
+        <member name="M:Hale.Core.API.UserController.List">
             <summary>
             List user records from the database. (Auth)
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.UserController.Details(System.Int32)">
+        <member name="M:Hale.Core.API.UserController.Details(System.Int32)">
             <summary>
             List user details for a specific user. (Auth)
             </summary>
             <param name="id">The user id to retreive the details for.</param>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.UserController.Detail(System.Int32,System.Int32)">
+        <member name="M:Hale.Core.API.UserController.Detail(System.Int32,System.Int32)">
             <summary>
             Get a specific user detail for a specified user id. (Auth)
             </summary>
@@ -299,64 +299,64 @@
             <param name="detailid">The detail id to fetch.</param>
             <returns></returns>
         </member>
-        <member name="M:Hale_Core.API.UserController.Get(System.Int32)">
+        <member name="M:Hale.Core.API.UserController.Get(System.Int32)">
             <summary>
             Fetch a specific user record. (Auth)
             </summary>
             <param name="id">The user id to fetch.</param>
             <returns></returns>
         </member>
-        <member name="T:Hale_Core.Entities.Modules.Module">
+        <member name="T:Hale.Core.Entities.Modules.Module">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Module.Id">
+        <member name="P:Hale.Core.Entities.Modules.Module.Id">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Module.Identifier">
+        <member name="P:Hale.Core.Entities.Modules.Module.Identifier">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Module.Version">
+        <member name="P:Hale.Core.Entities.Modules.Module.Version">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Module.Major">
+        <member name="P:Hale.Core.Entities.Modules.Module.Major">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Module.Minor">
+        <member name="P:Hale.Core.Entities.Modules.Module.Minor">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Module.Revision">
+        <member name="P:Hale.Core.Entities.Modules.Module.Revision">
             <summary>
             
             </summary>
         </member>
-        <member name="F:Hale_Core.Entities.Modules.Module._major">
+        <member name="F:Hale.Core.Entities.Modules.Module._major">
             <summary>
             
             </summary>
         </member>
-        <member name="F:Hale_Core.Entities.Modules.Module._minor">
+        <member name="F:Hale.Core.Entities.Modules.Module._minor">
             <summary>
             
             </summary>
         </member>
-        <member name="F:Hale_Core.Entities.Modules.Module._revision">
+        <member name="F:Hale.Core.Entities.Modules.Module._revision">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Hale_Core.Entities.Modules.Module.updateVersion(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">
+        <member name="M:Hale.Core.Entities.Modules.Module.updateVersion(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">
             <summary>
             
             </summary>
@@ -364,731 +364,731 @@
             <param name="minor"></param>
             <param name="revision"></param>
         </member>
-        <member name="M:Hale_Core.Entities.Modules.Module.#ctor">
+        <member name="M:Hale.Core.Entities.Modules.Module.#ctor">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Hale_Core.Entities.Modules.Module.#ctor(HaleLib.Modules.VersionedIdentifier)">
+        <member name="M:Hale.Core.Entities.Modules.Module.#ctor(Hale.Lib.Modules.VersionedIdentifier)">
             <summary>
             
             </summary>
             <param name="vi"></param>
         </member>
-        <member name="T:Hale_Core.Entities.Modules.Function">
+        <member name="T:Hale.Core.Entities.Modules.Function">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Function.Id">
+        <member name="P:Hale.Core.Entities.Modules.Function.Id">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Function.Name">
+        <member name="P:Hale.Core.Entities.Modules.Function.Name">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Function.Type">
+        <member name="P:Hale.Core.Entities.Modules.Function.Type">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.Function.ModuleId">
+        <member name="P:Hale.Core.Entities.Modules.Function.ModuleId">
             <summary>
             
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Modules.FunctionType">
+        <member name="T:Hale.Core.Entities.Modules.FunctionType">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.FunctionType.Id">
+        <member name="P:Hale.Core.Entities.Modules.FunctionType.Id">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Modules.FunctionType.Type">
+        <member name="P:Hale.Core.Entities.Modules.FunctionType.Type">
             <summary>
             
             </summary>
         </member>
-        <member name="F:Hale_Core.Entities.Modules.FunctionType.Action">
+        <member name="F:Hale.Core.Entities.Modules.FunctionType.Action">
             <summary>
             
             </summary>
         </member>
-        <member name="F:Hale_Core.Entities.Modules.FunctionType.Check">
+        <member name="F:Hale.Core.Entities.Modules.FunctionType.Check">
             <summary>
             
             </summary>
         </member>
-        <member name="F:Hale_Core.Entities.Modules.FunctionType.Info">
+        <member name="F:Hale.Core.Entities.Modules.FunctionType.Info">
             <summary>
             
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Shared.LoginResponse">
+        <member name="T:Hale.Core.Entities.Shared.LoginResponse">
             <summary>
             Message for returning login responses to the GUI.
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.LoginResponse.UserId">
+        <member name="P:Hale.Core.Entities.Shared.LoginResponse.UserId">
             <summary>
             Returns the user id for the authenticated user.
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.LoginResponse.Error">
+        <member name="P:Hale.Core.Entities.Shared.LoginResponse.Error">
             <summary>
             Returns any errors during the authentication process.
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Shared.Metadata">
+        <member name="T:Hale.Core.Entities.Shared.Metadata">
             <summary>
             Corresponds to the database table Shared.Metadata
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.Metadata.Id">
+        <member name="P:Hale.Core.Entities.Shared.Metadata.Id">
             <summary>
             Corresponds to the table column Metadata.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.Metadata.Type">
+        <member name="P:Hale.Core.Entities.Shared.Metadata.Type">
             <summary>
             Corresponds to the table column Metadata.Type
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.Metadata.Attribute">
+        <member name="P:Hale.Core.Entities.Shared.Metadata.Attribute">
             <summary>
             Corresponds to the table column Metadata.Attribute
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.Metadata.Label">
+        <member name="P:Hale.Core.Entities.Shared.Metadata.Label">
             <summary>
             Corresponds to the table column Metadata.Label
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.Metadata.Description">
+        <member name="P:Hale.Core.Entities.Shared.Metadata.Description">
             <summary>
             Corresponds to the table column Metadata.Description
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.Metadata.Required">
+        <member name="P:Hale.Core.Entities.Shared.Metadata.Required">
             <summary>
             Corresponds to the table column Metadata.Required
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Shared.Metadata.Protected">
+        <member name="P:Hale.Core.Entities.Shared.Metadata.Protected">
             <summary>
             Corresponds to the table column Metadata.Protected
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Checks.Check">
+        <member name="T:Hale.Core.Entities.Checks.Check">
             <summary>
             Corresponds to the database table Checks.Check
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Check.Id">
+        <member name="P:Hale.Core.Entities.Checks.Check.Id">
             <summary>
             Corresponds to the table column Checks.Check.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Check.Identifier">
+        <member name="P:Hale.Core.Entities.Checks.Check.Identifier">
             <summary>
             Corresponds to the table column Checks.Check.Identifier
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Checks.CheckDetail">
+        <member name="T:Hale.Core.Entities.Checks.CheckDetail">
             <summary>
             Corresponds to the database table Checks.CheckDetails
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.CheckDetail.Id">
+        <member name="P:Hale.Core.Entities.Checks.CheckDetail.Id">
             <summary>
             Corresponds to the table column Checks.CheckDetails.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.CheckDetail.CheckId">
+        <member name="P:Hale.Core.Entities.Checks.CheckDetail.CheckId">
             <summary>
             Corresponds to the table column Checks.CheckDetails.CheckId (FK: Checks.Check.Id)
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.CheckDetail.Version">
+        <member name="P:Hale.Core.Entities.Checks.CheckDetail.Version">
             <summary>
             Corresponds to the table column Checks.CheckDetails.Version
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.CheckDetail.Name">
+        <member name="P:Hale.Core.Entities.Checks.CheckDetail.Name">
             <summary>
             Corresponds to the table column Checks.CheckDetails.Name
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.CheckDetail.Description">
+        <member name="P:Hale.Core.Entities.Checks.CheckDetail.Description">
             <summary>
             Corresponds to the table column Checks.CheckDetails.Description
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.CheckDetail.Activated">
+        <member name="P:Hale.Core.Entities.Checks.CheckDetail.Activated">
             <summary>
             Corresponds to the table column Checks.CheckDetails.Activated
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Checks.Metric">
+        <member name="T:Hale.Core.Entities.Checks.Metric">
             <summary>
             Corresponds to the database table Checks.Metrics
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Metric.Id">
+        <member name="P:Hale.Core.Entities.Checks.Metric.Id">
             <summary>
             Corresponds to the table column Checks.Metrics.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Metric.ResultId">
+        <member name="P:Hale.Core.Entities.Checks.Metric.ResultId">
             <summary>
             Corresponds to the table column Checks.Metrics.ResultId
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Metric.Target">
+        <member name="P:Hale.Core.Entities.Checks.Metric.Target">
             <summary>
             Corresponds to the table column Checks.Metrics.Target
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Metric.RawValue">
+        <member name="P:Hale.Core.Entities.Checks.Metric.RawValue">
             <summary>
             Corresponds to the table column Checks.Metrics.RawValue
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Metric.Weight">
+        <member name="P:Hale.Core.Entities.Checks.Metric.Weight">
             <summary>
             Corresponds to the table column Checks.Metrics.Weight
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Checks.Result_">
+        <member name="T:Hale.Core.Entities.Checks.Result_">
             <summary>
             Corresponds to the database table Checks.Results
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.Id">
+        <member name="P:Hale.Core.Entities.Checks.Result_.Id">
             <summary>
             Corresponds to the table column Checks.Results.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.CheckId">
+        <member name="P:Hale.Core.Entities.Checks.Result_.CheckId">
             <summary>
             Corresponds to the table column Checks.Results.CheckId (FK: Checks.Checks.Id)
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.CheckDetailId">
+        <member name="P:Hale.Core.Entities.Checks.Result_.CheckDetailId">
             <summary>
             Corresponds to the table column Checks.Results.CheckDetailId (FK: Checks.CheckDetails.Id)
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.HostId">
+        <member name="P:Hale.Core.Entities.Checks.Result_.HostId">
             <summary>
             Corresponds to the table column Checks.Results.HostId (FK: Nodes.Hosts.Id)
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.ResultType">
+        <member name="P:Hale.Core.Entities.Checks.Result_.ResultType">
             <summary>
             Corresponds to the table column Checks.Results.ResultType
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.ExecutionTime">
+        <member name="P:Hale.Core.Entities.Checks.Result_.ExecutionTime">
             <summary>
             Corresponds to the table column Checks.Results.ExecutionTime
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.Message">
+        <member name="P:Hale.Core.Entities.Checks.Result_.Message">
             <summary>
             Corresponds to the table column Checks.Results.Message
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.Exception">
+        <member name="P:Hale.Core.Entities.Checks.Result_.Exception">
             <summary>
             Corresponds to the table column Checks.Results.Exception
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Checks.Result_.Target">
+        <member name="P:Hale.Core.Entities.Checks.Result_.Target">
             <summary>
             Corresponds to the table column Checks.Results.Target
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Nodes.Host">
+        <member name="T:Hale.Core.Entities.Nodes.Host">
             <summary>
             Corresponds to the database table Nodes.Hosts
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.Id">
+        <member name="P:Hale.Core.Entities.Nodes.Host.Id">
             <summary>
             Corresponds to the table column Hosts.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.Name">
+        <member name="P:Hale.Core.Entities.Nodes.Host.Name">
             <summary>
             Corresponds to the table column Hosts.Name
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.HostName">
+        <member name="P:Hale.Core.Entities.Nodes.Host.HostName">
             <summary>
             Corresponds to the table column Hosts.HostName
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.Ip">
+        <member name="P:Hale.Core.Entities.Nodes.Host.Ip">
             <summary>
             Corresponds to the table column Hosts.Ip
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.Status">
+        <member name="P:Hale.Core.Entities.Nodes.Host.Status">
             <summary>
             Corresponds to the table column Hosts.Status
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.LastSeen">
+        <member name="P:Hale.Core.Entities.Nodes.Host.LastSeen">
             <summary>
              Corresponds to the table column Hosts.LastSeen
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.Updated">
+        <member name="P:Hale.Core.Entities.Nodes.Host.Updated">
             <summary>
             Corresponds to the table column Hosts.Updated
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.Added">
+        <member name="P:Hale.Core.Entities.Nodes.Host.Added">
             <summary>
             Corresponds to the table column Hosts.Added
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.Guid">
+        <member name="P:Hale.Core.Entities.Nodes.Host.Guid">
             <summary>
             Corresponds to the table column Hosts.Guid
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.RsaKey">
+        <member name="P:Hale.Core.Entities.Nodes.Host.RsaKey">
             <summary>
             Corresponds to the table column Hosts.RsaKey.
             Is not serialized by the JsonApiAdapter.
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.Host.HostDetails">
+        <member name="P:Hale.Core.Entities.Nodes.Host.HostDetails">
             <summary>
             Wrapper containing data in a one-to-many relationship to Nodes.HostDetails.
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Nodes.HostDetail">
+        <member name="T:Hale.Core.Entities.Nodes.HostDetail">
             <summary>
             Corresponds to the database table Nodes.HostDetails
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.HostDetail.Id">
+        <member name="P:Hale.Core.Entities.Nodes.HostDetail.Id">
             <summary>
             Corresponds to the table column HostDetails.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.HostDetail.HostId">
+        <member name="P:Hale.Core.Entities.Nodes.HostDetail.HostId">
             <summary>
             Corresponds to the table column HostDetails.HostId (FK: Nodes.Hosts.Id)
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.HostDetail.Key">
+        <member name="P:Hale.Core.Entities.Nodes.HostDetail.Key">
             <summary>
             Corresponds to the table column HostDetails.Key
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.HostDetail.Value">
+        <member name="P:Hale.Core.Entities.Nodes.HostDetail.Value">
             <summary>
             Corresponds to the table column HostDetails.Value
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Nodes.HostResponseWrapper">
+        <member name="T:Hale.Core.Entities.Nodes.HostResponseWrapper">
             <summary>
             JsonApiAdapter wrapper not represented in the database domain.
             Host [1..*] HostDetail
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.HostResponseWrapper.Host">
+        <member name="P:Hale.Core.Entities.Nodes.HostResponseWrapper.Host">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Nodes.HostResponseWrapper.Details">
+        <member name="P:Hale.Core.Entities.Nodes.HostResponseWrapper.Details">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Nodes.Status">
+        <member name="T:Hale.Core.Entities.Nodes.Status">
             <summary>
             Represents the possible values for the table column Nodes.Hosts.Status
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Security.Authentication">
+        <member name="T:Hale.Core.Entities.Security.Authentication">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.Authentication.Username">
+        <member name="P:Hale.Core.Entities.Security.Authentication.Username">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.Authentication.Password">
+        <member name="P:Hale.Core.Entities.Security.Authentication.Password">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Security.User">
+        <member name="T:Hale.Core.Entities.Security.User">
             <summary>
             Corresponds to the database table Security.User
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.Id">
+        <member name="P:Hale.Core.Entities.Security.User.Id">
             <summary>
             Corresponds to the table column User.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.UserName">
+        <member name="P:Hale.Core.Entities.Security.User.UserName">
             <summary>
             Corresponds to the table column User.UserName
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.Email">
+        <member name="P:Hale.Core.Entities.Security.User.Email">
             <summary>
             Corresponds to the table column User.Email
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.Password">
+        <member name="P:Hale.Core.Entities.Security.User.Password">
             <summary>
             Corresponds to the table column User.Password.
             Only used to hold a hashed and salted representation of the password.
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.Salt">
+        <member name="P:Hale.Core.Entities.Security.User.Salt">
             <summary>
             Corresponds to the table column User.Salt
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.Created">
+        <member name="P:Hale.Core.Entities.Security.User.Created">
             <summary>
             Corresponds to the table column User.Created
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.CreatedBy">
+        <member name="P:Hale.Core.Entities.Security.User.CreatedBy">
             <summary>
             Corresponds to the table column User.CreatedBy (FK Security.Users.Id)
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.Changed">
+        <member name="P:Hale.Core.Entities.Security.User.Changed">
             <summary>
             Corresponds to the table column User.Changed
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.ChangedBy">
+        <member name="P:Hale.Core.Entities.Security.User.ChangedBy">
             <summary>
             Corresponds to the table column User.ChangedBy (FK Security.Users.Id)
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.User.UserDetails">
+        <member name="P:Hale.Core.Entities.Security.User.UserDetails">
             <summary>
             Aggregation of available records in the Security.UserDetails table.
             Users [1..*] UserDetails
             </summary>
         </member>
-        <member name="T:Hale_Core.Entities.Security.UserDetail">
+        <member name="T:Hale.Core.Entities.Security.UserDetail">
             <summary>
             Corresponds to the database table Security.UserDetails
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.UserDetail.Id">
+        <member name="P:Hale.Core.Entities.Security.UserDetail.Id">
             <summary>
             Corresponds to the table column UserDetails.Id
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.UserDetail.UserId">
+        <member name="P:Hale.Core.Entities.Security.UserDetail.UserId">
             <summary>
             Corresponds to the table column UserDetails.UserId (FK: Security.Users.Id)
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.UserDetail.Key">
+        <member name="P:Hale.Core.Entities.Security.UserDetail.Key">
             <summary>
             Corresponds to the table column UserDetails.Key
             </summary>
         </member>
-        <member name="P:Hale_Core.Entities.Security.UserDetail.Value">
+        <member name="P:Hale.Core.Entities.Security.UserDetail.Value">
             <summary>
             Corresponds to the table column UserDetails.Value
             </summary>
         </member>
-        <member name="F:Hale_Core.Handlers.ModuleInfo.Module">
+        <member name="F:Hale.Core.Handlers.ModuleInfo.Module">
             <summary>
              The version specified inside the manifest, or if missing, the module dll version
             </summary>
         </member>
-        <member name="F:Hale_Core.Handlers.ModuleInfo.Runtime">
+        <member name="F:Hale.Core.Handlers.ModuleInfo.Runtime">
             <summary>
              The version of the module dll
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.JsonApiHeader">
+        <member name="T:Hale.Core.Formatting.JsonAPI.JsonApiHeader">
             <summary>
             JSON API Header. Contains the version number as a string.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.JsonApiHeader.Version">
+        <member name="P:Hale.Core.Formatting.JsonAPI.JsonApiHeader.Version">
             <summary>
             The version number of the JSON API.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.JsonApiBase">
+        <member name="T:Hale.Core.Formatting.JsonAPI.JsonApiBase">
             <summary>
             Base class. Holds an instance of JsonApiHeader.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.JsonApiBase.Jsonapi">
+        <member name="P:Hale.Core.Formatting.JsonAPI.JsonApiBase.Jsonapi">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.JsonApiResourceBase">
+        <member name="T:Hale.Core.Formatting.JsonAPI.JsonApiResourceBase">
             <summary>
             A derived class, based on JsonApiBase. Includes resources and links.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.JsonApiResourceBase.Included">
+        <member name="P:Hale.Core.Formatting.JsonAPI.JsonApiResourceBase.Included">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.JsonApiResourceBase.Links">
+        <member name="P:Hale.Core.Formatting.JsonAPI.JsonApiResourceBase.Links">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.SingleResourceBase">
+        <member name="T:Hale.Core.Formatting.JsonAPI.SingleResourceBase">
             <summary>
             Used for holding single data resources.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.SingleResourceBase.Data">
+        <member name="P:Hale.Core.Formatting.JsonAPI.SingleResourceBase.Data">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.MultiResourceBase">
+        <member name="T:Hale.Core.Formatting.JsonAPI.MultiResourceBase">
             <summary>
             Used for holding multiple data resources.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.MultiResourceBase.Data">
+        <member name="P:Hale.Core.Formatting.JsonAPI.MultiResourceBase.Data">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.ResourceIdentifier">
+        <member name="T:Hale.Core.Formatting.JsonAPI.ResourceIdentifier">
             <summary>
             
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.ResourceIdentifier.Id">
+        <member name="P:Hale.Core.Formatting.JsonAPI.ResourceIdentifier.Id">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.ResourceIdentifier.Type">
+        <member name="P:Hale.Core.Formatting.JsonAPI.ResourceIdentifier.Type">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.Resource">
+        <member name="T:Hale.Core.Formatting.JsonAPI.Resource">
             <summary>
             Resource instance containing attributes and links.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Resource.Attributes">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Resource.Attributes">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Resource.Links">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Resource.Links">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.DataResource">
+        <member name="T:Hale.Core.Formatting.JsonAPI.DataResource">
             <summary>
             Resource instance derived from Resource. Contains Relationships.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.DataResource.Relationships">
+        <member name="P:Hale.Core.Formatting.JsonAPI.DataResource.Relationships">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.Relationship">
+        <member name="T:Hale.Core.Formatting.JsonAPI.Relationship">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Relationship.Links">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Relationship.Links">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Relationship.Data">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Relationship.Data">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Relationship.Meta">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Relationship.Meta">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.ErrorRoot">
+        <member name="T:Hale.Core.Formatting.JsonAPI.ErrorRoot">
             <summary>
             Contains a list of error objects.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.ErrorRoot.Errors">
+        <member name="P:Hale.Core.Formatting.JsonAPI.ErrorRoot.Errors">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.Error">
+        <member name="T:Hale.Core.Formatting.JsonAPI.Error">
             <summary>
             Single error objects.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Error.Status">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Error.Status">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Error.Source">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Error.Source">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Error.Title">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Error.Title">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Error.Detail">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Error.Detail">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Error.Meta">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Error.Meta">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Error.Id">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Error.Id">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Error.Links">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Error.Links">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.Source">
+        <member name="T:Hale.Core.Formatting.JsonAPI.Source">
             <summary>
             Contains a pointer and a parameter.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Source.Pointer">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Source.Pointer">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="P:Hale_Core.Formatting.JsonAPI.Source.Parameter">
+        <member name="P:Hale.Core.Formatting.JsonAPI.Source.Parameter">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPI.Utilities">
+        <member name="T:Hale.Core.Formatting.JsonAPI.Utilities">
             <summary>
             Utility classes for the JSON API.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonAPI.Utilities.FormatException(System.Exception)">
+        <member name="M:Hale.Core.Formatting.JsonAPI.Utilities.FormatException(System.Exception)">
             <summary>
             Custom exception type, generated from a generic exception.
             </summary>
             <param name="x">The original exception</param>
             <returns>A dictionary containing the format exception.</returns>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonAPI.Utilities.FormatException(System.Web.Http.HttpError)">
+        <member name="M:Hale.Core.Formatting.JsonAPI.Utilities.FormatException(System.Web.Http.HttpError)">
             <summary>
             Custom exception type, generated from a http error.
             </summary>
             <param name="e">The original exception</param>
             <returns>A dictionary containing the http error exception.</returns>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonAPIContractResolver">
+        <member name="T:Hale.Core.Formatting.JsonAPIContractResolver">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonAPIContractResolver.ResolvePropertyName(System.String)">
+        <member name="M:Hale.Core.Formatting.JsonAPIContractResolver.ResolvePropertyName(System.String)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonAPIContractResolver.FormatName(System.String)">
+        <member name="M:Hale.Core.Formatting.JsonAPIContractResolver.FormatName(System.String)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Formatting.JsonApiMediaTypeFormatter">
+        <member name="T:Hale.Core.Formatting.JsonApiMediaTypeFormatter">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonApiMediaTypeFormatter.#ctor(System.String)">
+        <member name="M:Hale.Core.Formatting.JsonApiMediaTypeFormatter.#ctor(System.String)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonApiMediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)">
+        <member name="M:Hale.Core.Formatting.JsonApiMediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonApiMediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)">
+        <member name="M:Hale.Core.Formatting.JsonApiMediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonApiMediaTypeFormatter.CanReadType(System.Type)">
+        <member name="M:Hale.Core.Formatting.JsonApiMediaTypeFormatter.CanReadType(System.Type)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonApiMediaTypeFormatter.CanWriteType(System.Type)">
+        <member name="M:Hale.Core.Formatting.JsonApiMediaTypeFormatter.CanWriteType(System.Type)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonApiMediaTypeFormatter.FormatType(System.Type)">
+        <member name="M:Hale.Core.Formatting.JsonApiMediaTypeFormatter.FormatType(System.Type)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonApiMediaTypeFormatter.BuildLink(System.Type,System.Object)">
+        <member name="M:Hale.Core.Formatting.JsonApiMediaTypeFormatter.BuildLink(System.Type,System.Object)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Formatting.JsonApiMediaTypeFormatter.BuildLink(System.Type,System.Object,System.Type,System.Object)">
+        <member name="M:Hale.Core.Formatting.JsonApiMediaTypeFormatter.BuildLink(System.Type,System.Object,System.Type,System.Object)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Utils.StringResult">
+        <member name="T:Hale.Core.Utils.StringResult">
             <summary>
             Simple way to return a general error string (eg. file not found), title,
             an optional descriptive error(file "XX" not found), detail
@@ -1096,86 +1096,86 @@
             Made to comply with the JSON API specification errors
             </summary>
         </member>
-        <member name="M:Hale_Core.Utils.StringResult.#ctor(System.Net.HttpStatusCode,System.String,System.Net.Http.HttpRequestMessage)">
+        <member name="M:Hale.Core.Utils.StringResult.#ctor(System.Net.HttpStatusCode,System.String,System.Net.Http.HttpRequestMessage)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Utils.StringResult.#ctor(System.Net.HttpStatusCode,System.String,System.String,System.Net.Http.HttpRequestMessage)">
+        <member name="M:Hale.Core.Utils.StringResult.#ctor(System.Net.HttpStatusCode,System.String,System.String,System.Net.Http.HttpRequestMessage)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.Utils.StringResult.ExecuteAsync(System.Threading.CancellationToken)">
+        <member name="M:Hale.Core.Utils.StringResult.ExecuteAsync(System.Threading.CancellationToken)">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="T:Hale_Core.Utils.TraceLogger">
+        <member name="T:Hale.Core.Utils.TraceLogger">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Hale_Core.Utils.TraceLogger.#ctor(System.String)">
+        <member name="M:Hale.Core.Utils.TraceLogger.#ctor(System.String)">
             <summary>
             
             </summary>
             <param name="name"></param>
         </member>
-        <member name="M:Hale_Core.Utils.TraceLogger.Trace(System.String)">
+        <member name="M:Hale.Core.Utils.TraceLogger.Trace(System.String)">
             <summary>
             
             </summary>
             <param name="label"></param>
         </member>
-        <member name="M:Hale_Core.Utils.TraceLogger.Reset">
+        <member name="M:Hale.Core.Utils.TraceLogger.Reset">
             <summary>
             </summary>
         </member>
-        <member name="T:Hale_Core.HaleCoreService">
+        <member name="T:Hale.Core.HaleCoreService">
             <summary>
             The main entry point for starting the Hale-Core service.
             </summary>
         </member>
-        <member name="M:Hale_Core.HaleCoreService.#ctor">
+        <member name="M:Hale.Core.HaleCoreService.#ctor">
             <summary>
             Default constructor for the Hale-Core service
             </summary>
         </member>
-        <member name="M:Hale_Core.HaleCoreService.OnStart(System.String[])">
+        <member name="M:Hale.Core.HaleCoreService.OnStart(System.String[])">
             <summary>
             Method used for executing a threaded start of the core.
             </summary>
             <param name="args"></param>
         </member>
-        <member name="M:Hale_Core.HaleCoreService.OnStop">
+        <member name="M:Hale.Core.HaleCoreService.OnStop">
             <summary>
             TODO: Add a usage description.
             </summary>
         </member>
-        <member name="M:Hale_Core.HaleCoreService.DebugStart">
+        <member name="M:Hale.Core.HaleCoreService.DebugStart">
             <summary>
             Start in debugger mode, which enables us to start Hale-Core as a terminal app instead of a windows service, which is the default behaviour.
             </summary>
         </member>
-        <member name="F:Hale_Core.HaleCoreService.components">
+        <member name="F:Hale.Core.HaleCoreService.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:Hale_Core.HaleCoreService.Dispose(System.Boolean)">
+        <member name="M:Hale.Core.HaleCoreService.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:Hale_Core.HaleCoreService.InitializeComponent">
+        <member name="M:Hale.Core.HaleCoreService.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="M:Hale_Core.Program.Main">
+        <member name="M:Hale.Core.Program.Main">
             <summary>
             The main entry point for the application.
             </summary>

@@ -1,6 +1,6 @@
 ﻿using Dapper;
-using Hale_Core.Entities.Nodes;
-using Hale_Core.Handlers;
+using Hale.Core.Entities.Nodes;
+using Hale.Core.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hale_Core.Contexts
+namespace Hale.Core.Contexts
 {
     internal class HostDetails : SqlHandler
     {
