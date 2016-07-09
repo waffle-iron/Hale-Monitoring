@@ -1,11 +1,11 @@
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\Hale-Alert-Simple.dll
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\Hale-Alert-Simple.pdb
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\Hale-Lib.dll
-C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\NLog.dll
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\Newtonsoft.Json.dll
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\NLog.dll
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\Hale-Lib.pdb
-C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\NLog.xml
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\Newtonsoft.Json.xml
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\bin\Debug\NLog.xml
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\obj\Debug\Alert.Simple.csprojResolveAssemblyReference.cache
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\obj\Debug\Hale-Alert-Simple.dll
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Simple\obj\Debug\Hale-Alert-Simple.pdb

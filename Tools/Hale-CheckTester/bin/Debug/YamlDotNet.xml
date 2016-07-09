@@ -2528,6 +2528,11 @@
             Gets all nodes from the document, starting on the current node.
             </summary>
         </member>
+        <member name="P:YamlDotNet.RepresentationModel.YamlAliasNode.NodeType">
+            <summary>
+            Gets the type of node.
+            </summary>
+        </member>
         <member name="T:YamlDotNet.RepresentationModel.YamlDocument">
             <summary>
             Represents an YAML document.
@@ -2689,6 +2694,11 @@
             Gets all nodes from the document, starting on the current node.
             </summary>
         </member>
+        <member name="P:YamlDotNet.RepresentationModel.YamlMappingNode.NodeType">
+            <summary>
+            Gets the type of node.
+            </summary>
+        </member>
         <member name="M:YamlDotNet.RepresentationModel.YamlMappingNode.ToString">
             <summary>
             Returns a <see cref="T:System.String"/> that represents this instance.
@@ -2803,6 +2813,11 @@
             Gets all nodes from the document, starting on the current node.
             </summary>
         </member>
+        <member name="P:YamlDotNet.RepresentationModel.YamlNode.NodeType">
+            <summary>
+            Gets the type of node.
+            </summary>
+        </member>
         <member name="T:YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer">
             <summary>
             Comparer that is based on identity comparisons.
@@ -2813,6 +2828,31 @@
         </member>
         <member name="M:YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer.GetHashCode(YamlDotNet.RepresentationModel.YamlNode)">
             <summary />
+        </member>
+        <member name="T:YamlDotNet.RepresentationModel.YamlNodeType">
+            <summary>
+            Specifies the type of node in the representation model.
+            </summary>
+        </member>
+        <member name="F:YamlDotNet.RepresentationModel.YamlNodeType.Alias">
+            <summary>
+            The node is a <see cref="T:YamlDotNet.RepresentationModel.YamlAliasNode"/>.
+            </summary>
+        </member>
+        <member name="F:YamlDotNet.RepresentationModel.YamlNodeType.Mapping">
+            <summary>
+            The node is a <see cref="T:YamlDotNet.RepresentationModel.YamlMappingNode"/>.
+            </summary>
+        </member>
+        <member name="F:YamlDotNet.RepresentationModel.YamlNodeType.Scalar">
+            <summary>
+            The node is a <see cref="T:YamlDotNet.RepresentationModel.YamlScalarNode"/>.
+            </summary>
+        </member>
+        <member name="F:YamlDotNet.RepresentationModel.YamlNodeType.Sequence">
+            <summary>
+            The node is a <see cref="T:YamlDotNet.RepresentationModel.YamlSequenceNode"/>.
+            </summary>
         </member>
         <member name="T:YamlDotNet.RepresentationModel.YamlScalarNode">
             <summary>
@@ -2908,6 +2948,11 @@
             Gets all nodes from the document, starting on the current node.
             </summary>
         </member>
+        <member name="P:YamlDotNet.RepresentationModel.YamlScalarNode.NodeType">
+            <summary>
+            Gets the type of node.
+            </summary>
+        </member>
         <member name="T:YamlDotNet.RepresentationModel.YamlSequenceNode">
             <summary>
             Represents a sequence node in the YAML document.
@@ -2994,6 +3039,11 @@
         <member name="P:YamlDotNet.RepresentationModel.YamlSequenceNode.AllNodes">
             <summary>
             Gets all nodes from the document, starting on the current node.
+            </summary>
+        </member>
+        <member name="P:YamlDotNet.RepresentationModel.YamlSequenceNode.NodeType">
+            <summary>
+            Gets the type of node.
             </summary>
         </member>
         <member name="M:YamlDotNet.RepresentationModel.YamlSequenceNode.ToString">
@@ -3511,12 +3561,13 @@
             Writes objects to YAML.
             </summary>
         </member>
-        <member name="M:YamlDotNet.Serialization.Serializer.#ctor(YamlDotNet.Serialization.SerializationOptions,YamlDotNet.Serialization.INamingConvention)">
+        <member name="M:YamlDotNet.Serialization.Serializer.#ctor(YamlDotNet.Serialization.SerializationOptions,YamlDotNet.Serialization.INamingConvention,YamlDotNet.Serialization.YamlAttributeOverrides)">
             <summary>
             
             </summary>
             <param name="options">Options that control how the serialization is to be performed.</param>
             <param name="namingConvention">Naming strategy to use for serialized property names</param>
+            <param name="overrides">Yaml attribute overrides</param>
         </member>
         <member name="M:YamlDotNet.Serialization.Serializer.RegisterTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)">
             <summary>
@@ -3781,6 +3832,29 @@
             </summary>
             <param name="alias">The alias to use for this field.</param>
         </member>
+        <member name="T:YamlDotNet.Serialization.YamlAttributeOverrides">
+            <summary>
+            Define a collection of YamlAttribute Overrides for pre-defined object types.
+            </summary>
+        </member>
+        <member name="M:YamlDotNet.Serialization.YamlAttributeOverrides.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:YamlDotNet.Serialization.YamlAttributeOverrides"/> class.
+            </summary>
+        </member>
+        <member name="M:YamlDotNet.Serialization.YamlAttributeOverrides.Add(System.Type,System.String,System.Attribute)">
+            <summary>
+            Add a Member Attribute Override
+            </summary>
+            <param name="type">Type</param>
+            <param name="member">Class Member</param>
+            <param name="attribute">Overriding Attribute</param>
+        </member>
+        <member name="T:YamlDotNet.Serialization.YamlAttributeOverridesInspector">
+            <summary>
+            Applies the Yaml attribute overrides to another <see cref="T:YamlDotNet.Serialization.ITypeInspector"/>.
+            </summary>
+        </member>
         <member name="T:YamlDotNet.Serialization.YamlAttributesTypeInspector">
             <summary>
             Applies the Yaml* attributes to another <see cref="T:YamlDotNet.Serialization.ITypeInspector"/>.
@@ -3826,6 +3900,18 @@
             Initializes a new instance of the <see cref="T:YamlDotNet.Serialization.YamlMemberAttribute" /> class.
             </summary>
             <param name="serializeAs">Specifies that this property should be serialized as the given type, rather than using the actual runtime value's type.</param>
+        </member>
+        <member name="T:YamlDotNet.Helpers.GenericCollectionToNonGenericAdapter">
+            <summary>
+            Adapts an <see cref="T:System.Collections.Generic.ICollection`1" /> to <see cref="T:System.Collections.IList" />
+            because not all generic collections implement <see cref="T:System.Collections.IList" />.
+            </summary>
+        </member>
+        <member name="T:YamlDotNet.Helpers.GenericDictionaryToNonGenericAdapter">
+            <summary>
+            Adapts an <see cref="T:System.Collections.Generic.IDictionary`2" /> to <see cref="T:System.Collections.IDictionary" />
+            because not all generic dictionaries implement <see cref="T:System.Collections.IDictionary" />.
+            </summary>
         </member>
     </members>
 </doc>

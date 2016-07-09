@@ -28,12 +28,13 @@ C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\FastColoredTextBox.d
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Newtonsoft.Json.dll
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\NLog.dll
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
-C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Dapper.pdb
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Dapper.xml
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\FastColoredTextBox.xml
+C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\Newtonsoft.Json.xml
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\bin\Debug\NLog.xml
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\obj\Debug\DBTools.csprojResolveAssemblyReference.cache
 C:\Users\simon\Hale-Monitoring\Tools\Hale-DBTools\obj\Debug\Hale_DBTools.FormDBTools.resources

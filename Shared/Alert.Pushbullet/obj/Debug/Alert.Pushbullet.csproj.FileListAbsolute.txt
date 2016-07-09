@@ -11,6 +11,8 @@ C:\Users\simon\Source\Repos\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\NL
 C:\Users\simon\Source\Repos\Hale-Monitoring\Shared\Alert.Pushbullet\obj\Debug\Alert.Pushbullet.csprojResolveAssemblyReference.cache
 C:\Users\simon\Source\Repos\Hale-Monitoring\Shared\Alert.Pushbullet\obj\Debug\Hale-Alert-Pushbullet.dll
 C:\Users\simon\Source\Repos\Hale-Monitoring\Shared\Alert.Pushbullet\obj\Debug\Hale-Alert-Pushbullet.pdb
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\obj\Debug\Alert.Pushbullet.csprojResolveAssemblyReference.cache
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\Hale-Alert-Pushbullet.dll.config
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\Hale-Alert-Pushbullet.dll
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\Hale-Alert-Pushbullet.pdb
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\Hale-Alert.dll
@@ -21,6 +23,5 @@ C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\Hale-Alert.pdb
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\Hale-Lib.pdb
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\Newtonsoft.Json.xml
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\bin\Debug\NLog.xml
-C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\obj\Debug\Alert.Pushbullet.csprojResolveAssemblyReference.cache
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\obj\Debug\Hale-Alert-Pushbullet.dll
 C:\Users\simon\Hale-Monitoring\Shared\Alert.Pushbullet\obj\Debug\Hale-Alert-Pushbullet.pdb
