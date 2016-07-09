@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+	<Bundle Name="Hale Agent" Version="1.0.0.0" Manufacturer="Hale Project" UpgradeCode="f31c06c1-dd56-4be0-8092-13f1497a9587">
+
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.HyperlinkLicense">
+      <bal:WixStandardBootstrapperApplication
+            LicenseUrl=""
+            ShowVersion="yes" 
+            ThemeFile="HaleAgentBootstrapperTheme.xml"
+            LocalizationFile="HaleAgentBootstrapperTheme.wxl"
+
+            />
+      <Payload
+          SourceFile="hale-logo.png"/>
+    </BootstrapperApplicationRef>
+
+		<Chain>
+      
+      <PackageGroupRef Id="NetFx45Web"/>
+      <MsiPackage Id="HaleAgent" SourceFile="$(var.Hale-AgentSetup.TargetPath)"/>
+		</Chain>
+	</Bundle>
+</Wix>

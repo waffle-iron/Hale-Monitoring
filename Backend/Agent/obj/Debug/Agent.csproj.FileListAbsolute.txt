@@ -1,0 +1,6 @@
+C:\Users\simon\Source\Repos\Hale-Monitoring\Backend\Agent\bin\Debug\Agent.exe.config
+C:\Users\simon\Source\Repos\Hale-Monitoring\Backend\Agent\obj\Debug\Interop.Shell32.dll
+C:\Users\simon\Source\Repos\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.csproj.ResolveComReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.csprojResolveAssemblyReference.cache
+C:\Users\simon\Source\Repos\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.HaleAgentService.resources
+C:\Users\simon\Source\Repos\Hale-Monitoring\Backend\Agent\obj\Debug\Agent.csproj.GenerateResource.Cache
