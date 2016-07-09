@@ -2,8 +2,14 @@
 
 namespace Hale_Core.Config
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ApiSection: ConfigurationSection
     {
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("host")]
         public string Host
         {
@@ -17,6 +23,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("port")]
         public int Port
         {
@@ -30,6 +39,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("scheme")]
         public string Scheme
         {
@@ -43,6 +55,10 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="_config"></param>
         public static void ValidateSection(Configuration _config)
         {
             if (_config.Sections["api"] == null)

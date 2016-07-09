@@ -3,8 +3,15 @@ using System.Net;
 
 namespace Hale_Core.Config
 {
+
+    /// <summary>
+    /// 
+    /// </summary>
     public class AgentSection : ConfigurationSection
     {
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("sendport")]
         public int SendPort
         {
@@ -25,6 +32,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("receiveport")]
         public int ReceivePort
         {
@@ -45,6 +55,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("hostname")]
         public string Hostname
         {
@@ -65,6 +78,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public IPAddress Ip
         {
             get
@@ -83,6 +99,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("ip")]
         private string _rawIp
         {
@@ -103,6 +122,10 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="_config"></param>
         public static void ValidateSection(Configuration _config)
         {
             if (_config.Sections["agent"] == null)

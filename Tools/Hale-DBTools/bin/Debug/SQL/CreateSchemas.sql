@@ -1,0 +1,17 @@
+﻿USE HaleDB
+GO
+
+CREATE SCHEMA [Security]
+GO
+
+CREATE SCHEMA [Nodes]
+GO
+
+CREATE SCHEMA [Checks]
+GO
+
+CREATE SCHEMA [Modules]
+GO
+
+CREATE SCHEMA [Shared]
+GO

@@ -2,8 +2,14 @@
 
 namespace Hale_Core.Config
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class DatabaseSection: ConfigurationSection
     {
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("type", DefaultValue = "mssql")]
         public string Type
         {
@@ -17,6 +23,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("host")]
         public string Host
         {
@@ -30,6 +39,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("port")]
         public int Port
         {
@@ -43,6 +55,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("database", DefaultValue = "HaleDB")]
         public string Database
         {
@@ -56,6 +71,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("user")]
         public string User
         {
@@ -69,6 +87,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("password")]
         public string Password
         {
@@ -82,6 +103,9 @@ namespace Hale_Core.Config
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [ConfigurationProperty("useIntegratedSecurity")]
         public bool UseIntegratedSecurity
         {
@@ -95,7 +119,10 @@ namespace Hale_Core.Config
             }
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="_config"></param>
         public static void ValidateSection(Configuration _config)
         {
             if (_config.Sections["database"] == null)

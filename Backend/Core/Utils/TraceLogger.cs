@@ -7,11 +7,18 @@ using System.Threading.Tasks;
 
 namespace Hale_Core.Utils
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class TraceLogger
     {
         ILogger _log;
         DateTime _last;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
         public TraceLogger(string name)
         {
 #if DEBUG
@@ -20,6 +27,10 @@ namespace Hale_Core.Utils
 #endif
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="label"></param>
         public void Trace(string label)
         {
 #if DEBUG
@@ -28,6 +39,8 @@ namespace Hale_Core.Utils
 #endif
         }
 
+        /// <summary>
+        /// </summary>
         public void Reset()
         {
 #if DEBUG

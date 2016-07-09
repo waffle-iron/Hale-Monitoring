@@ -1,0 +1,1 @@
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Slack\obj\Debug\Alert.Slack.csprojResolveAssemblyReference.cache

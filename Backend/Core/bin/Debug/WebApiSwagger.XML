@@ -4,6 +4,94 @@
         <name>Hale-Core</name>
     </assembly>
     <members>
+        <member name="T:Hale_Core.Config.ConfigurationExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Hale_Core.Config.ConfigurationExtensions.Agent(System.Configuration.Configuration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hale_Core.Config.ConfigurationExtensions.Api(System.Configuration.Configuration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hale_Core.Config.ConfigurationExtensions.Database(System.Configuration.Configuration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Hale_Core.Config.AgentSection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.AgentSection.SendPort">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.AgentSection.ReceivePort">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.AgentSection.Hostname">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.AgentSection.Ip">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.AgentSection._rawIp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Hale_Core.Config.AgentSection.ValidateSection(System.Configuration.Configuration)">
+            <summary>
+            
+            </summary>
+            <param name="_config"></param>
+        </member>
+        <member name="T:Hale_Core.Config.ApiSection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.ApiSection.Host">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.ApiSection.Port">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.ApiSection.Scheme">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Hale_Core.Config.ApiSection.ValidateSection(System.Configuration.Configuration)">
+            <summary>
+            
+            </summary>
+            <param name="_config"></param>
+        </member>
         <member name="T:Hale_Core.Config.AppConfig">
             <summary>
             
@@ -20,6 +108,52 @@
             <summary>
             TODO: Add a usage description.
             </summary>
+        </member>
+        <member name="T:Hale_Core.Config.DatabaseSection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.DatabaseSection.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.DatabaseSection.Host">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.DatabaseSection.Port">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.DatabaseSection.Database">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.DatabaseSection.User">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.DatabaseSection.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Config.DatabaseSection.UseIntegratedSecurity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Hale_Core.Config.DatabaseSection.ValidateSection(System.Configuration.Configuration)">
+            <summary>
+            
+            </summary>
+            <param name="_config"></param>
         </member>
         <member name="T:Hale_Core.API.MetadataController">
             <summary>
@@ -171,6 +305,130 @@
             </summary>
             <param name="id">The user id to fetch.</param>
             <returns></returns>
+        </member>
+        <member name="T:Hale_Core.Entities.Modules.Module">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Module.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Module.Identifier">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Module.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Module.Major">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Module.Minor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Module.Revision">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Hale_Core.Entities.Modules.Module._major">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Hale_Core.Entities.Modules.Module._minor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Hale_Core.Entities.Modules.Module._revision">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Hale_Core.Entities.Modules.Module.updateVersion(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="revision"></param>
+        </member>
+        <member name="M:Hale_Core.Entities.Modules.Module.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Hale_Core.Entities.Modules.Module.#ctor(HaleLib.Modules.VersionedIdentifier)">
+            <summary>
+            
+            </summary>
+            <param name="vi"></param>
+        </member>
+        <member name="T:Hale_Core.Entities.Modules.Function">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Function.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Function.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Function.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.Function.ModuleId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Hale_Core.Entities.Modules.FunctionType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.FunctionType.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Hale_Core.Entities.Modules.FunctionType.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Hale_Core.Entities.Modules.FunctionType.Action">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Hale_Core.Entities.Modules.FunctionType.Check">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Hale_Core.Entities.Modules.FunctionType.Info">
+            <summary>
+            
+            </summary>
         </member>
         <member name="T:Hale_Core.Entities.Shared.LoginResponse">
             <summary>
@@ -851,6 +1109,27 @@
         <member name="M:Hale_Core.Utils.StringResult.ExecuteAsync(System.Threading.CancellationToken)">
             <summary>
             TODO: Add a usage description.
+            </summary>
+        </member>
+        <member name="T:Hale_Core.Utils.TraceLogger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Hale_Core.Utils.TraceLogger.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:Hale_Core.Utils.TraceLogger.Trace(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="label"></param>
+        </member>
+        <member name="M:Hale_Core.Utils.TraceLogger.Reset">
+            <summary>
             </summary>
         </member>
         <member name="T:Hale_Core.HaleCoreService">
