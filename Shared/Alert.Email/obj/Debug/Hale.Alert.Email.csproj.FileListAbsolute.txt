@@ -1,0 +1,6 @@
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Email\bin\Debug\Hale-Alert-Email.dll
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Email\bin\Debug\Hale-Alert-Email.pdb
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Email\bin\Debug\Hale-Alert.dll
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Email\bin\Debug\Hale-Alert.pdb
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Email\obj\Debug\Hale-Alert-Email.dll
+C:\Users\simon\Hale-Monitoring\Shared\Alert.Email\obj\Debug\Hale-Alert-Email.pdb

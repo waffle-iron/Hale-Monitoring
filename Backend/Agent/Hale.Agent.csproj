@@ -199,13 +199,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\Lib.ModuleLoader\Lib.ModuleLoader.csproj">
+    <ProjectReference Include="..\..\Shared\Lib.ModuleLoader\Hale.Lib.ModuleLoader.csproj">
       <Project>{a9904f35-66fa-4296-92e3-15fa49d9cf1d}</Project>
-      <Name>Lib.ModuleLoader</Name>
+      <Name>Hale.Lib.ModuleLoader</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Shared\Lib\Lib.csproj">
+    <ProjectReference Include="..\..\Shared\Lib\Hale.Lib.csproj">
       <Project>{28f51a08-9ccc-4997-90f5-2426cfae30f4}</Project>
-      <Name>Lib</Name>
+      <Name>Hale.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

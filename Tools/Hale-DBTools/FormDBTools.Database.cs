@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Hale_DBTools
+namespace Hale.DBTools
 {
     public partial class FormDBTools
     {

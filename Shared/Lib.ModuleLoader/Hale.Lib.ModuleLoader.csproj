@@ -4,20 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F589482C-D4AE-4A37-9825-E3C21808AFA8}</ProjectGuid>
+    <ProjectGuid>{A9904F35-66FA-4296-92E3-15FA49D9CF1D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hale.Alerts</RootNamespace>
-    <AssemblyName>Hale-Alert-Simple</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>HaleLib.ModuleLoader</RootNamespace>
+    <AssemblyName>Hale-Lib.ModuleLoader</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AssemblyVersion>1.0.16035.15</AssemblyVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <OutputPath>$(MSBuildProjectDirectory)\bin\Debug</OutputPath>
-    <StartAction>Program</StartAction>
-    <StartProgram>$(OutputPath)\..\..\..\..\Hale-DevTools\Hale-CheckTester\bin\Debug\Hale-CheckTester.exe</StartProgram>
-    <StartArguments>-d Hale-Alert-Simple.dll -p . -A test</StartArguments>
+    <AssemblyVersion>1.2.16035.65</AssemblyVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,7 +42,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,17 +50,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SimpleHaleAlert.cs" />
+    <Compile Include="ModuleDomain.cs" />
+    <Compile Include="ModuleLoader.cs" />
+    <Compile Include="ModuleRuntimeInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\Alert\Hale.Alert.csproj">
+      <Project>{d33ee72e-93d9-487f-92aa-3fdb76052ed2}</Project>
+      <Name>Hale.Alert</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib\Hale.Lib.csproj">
+      <Project>{28f51a08-9ccc-4997-90f5-2426cfae30f4}</Project>
+      <Name>Hale.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lib\Lib.csproj">
-      <Project>{28f51a08-9ccc-4997-90f5-2426cfae30f4}</Project>
-      <Name>Lib</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

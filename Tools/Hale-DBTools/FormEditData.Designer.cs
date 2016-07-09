@@ -1,4 +1,4 @@
-﻿namespace Hale_DBTools
+﻿namespace Hale.DBTools
 {
     partial class FormEditData
     {

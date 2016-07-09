@@ -14,7 +14,7 @@ using Hale.Lib.Modules.Alerts;
 using Hale.Lib.Modules;
 using YamlDotNet.Serialization;
 
-namespace Hale_CheckTester
+namespace Hale.CheckTester
 {
     class Options
     {

@@ -7,7 +7,7 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hale_DBTools
+namespace Hale.DBTools
 {
     public partial class FormDBTools
     {
